@@ -1,9 +1,39 @@
-* {
-    margin: 0;
-    padding: 0;
+:root{
+    --cor-primaria: #f0e8c2;
+    --cor-segundaria: #291B1A;;
+    --cor-tercearia: #573a57;
+
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573a57;
+}
+
+body{
+    background-image: url(/assets/bg-image.jpg);
+    background-size: cover;
+    font-family: 'Alice';
+}
+
+#page{
     box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: var(--cor-primaria);
+    border-radius: 24px;
+    margin: 48px auto;
 }
 
 img {
     border-radius: 16px;
+}
+
+h1{
+    line-height: 140%;
+    font-size: 40px;
+    color: var(--cor-segundaria);
+}
+
+h2{
+    font-size: 24px;
+    color: var(--cor-segundaria);
 }
