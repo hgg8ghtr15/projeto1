@@ -7,9 +7,13 @@
     line-height: 150%;
     color: #573a57;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    background-image: url(/assets/bg-image.jpg);
+    background-image: url(/assets/bg-image.png);
     background-size: cover;
     font-family: 'Alice';
 }
@@ -27,13 +31,47 @@ img {
     border-radius: 16px;
 }
 
+#main{
+    padding: 24px;
+    text-align: justify;
+}
+
+#about p + p{
+    margin-top: 12px;
+}
+
+#main section + section{
+    margin-top: 24px;
+}
+
 h1{
     line-height: 140%;
     font-size: 40px;
     color: var(--cor-segundaria);
+    margin-bottom: 4px;
 }
 
 h2{
     font-size: 24px;
     color: var(--cor-segundaria);
+}
+
+#ingredients ul, #preparation ol{
+    margin: 8px 0;
+    margin-left: 24px;
+}
+
+#preparation p{
+    margin-top: 12px;
+    text-align: justify;
+}
+
+#footer{
+    color: var(--cor-primaria);
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+#footer img{
+    vertical-align: middle;
 }
